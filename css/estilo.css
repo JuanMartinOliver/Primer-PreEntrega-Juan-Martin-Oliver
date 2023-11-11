@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    background-color: rgb(126, 154, 163);
+}
+
+
+
+
+/* header */
+
+header {
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    text-align: center;
+    
+}
+
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 50px 50px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+/* footer */
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+/* Bolsos */
+
+.cajaBolsos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+    gap: 50px 50px;
+}
+
+.coloresBolsos {
+    margin: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+.imgBolsos {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.coloresBolsos p {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+/* contacto */
+
+form {
+    margin-block: 100px;
+    margin-top: 100 px;
+    margin-bottom: 100px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+input [type="text"], textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid bisque;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.botonesEnviar {
+    background-color: black;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;    
+    margin-top: 10px;
+}
+
+h3, h4 {
+    margin: 50px;
+    padding: 50px;
+    border-top: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+
+}
+
+.fotoLocal {
+    margin: 5px;
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 1400px;
+    height: 1100px;
+
+}
+
+.fotoLogo {
+    margin: 100px;
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+}
+
+.imgCarrito {
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.carrito {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+}
+
+.carrito p {
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.botonComprar {
+    background-color: black;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;    
+    margin-top: 10px;
+}
+.botonAgregarAlCarrito {
+    background-color: black;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;    
+    margin-top: 10px;
+}
+
+.carrusel {
+    margin-top: 50px;
+    
+
+}
+
+.navegador {
+    text-align: center;
+    text-transform: uppercase;
+    
+    background-color: rgb(126, 154, 163);
+}
+
+.listaDesordenada {
+    list-style: none;
+    
+}
