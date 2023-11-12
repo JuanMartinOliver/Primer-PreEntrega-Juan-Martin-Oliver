@@ -6,7 +6,7 @@
 /* Body */
 
 body {
-    background-color: rgb(126, 154, 163);
+    background-color: rgba(232, 116, 14, 0.898)
 }
 
 
@@ -17,8 +17,25 @@ body {
 header {
     border-top: 10px solid black;
     border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
     text-align: center;
     
+}
+
+.logo {
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.colornavbar {
+    background-color: rgba(232, 116, 14, 0.898)
+}
+
+.formanavbar {
+   
+
 }
 
 
@@ -34,6 +51,11 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
 }
 
 main {
@@ -198,14 +220,5 @@ h3, h4 {
 
 }
 
-.navegador {
-    text-align: center;
-    text-transform: uppercase;
-    
-    background-color: rgb(126, 154, 163);
-}
 
-.listaDesordenada {
-    list-style: none;
-    
-}
+
