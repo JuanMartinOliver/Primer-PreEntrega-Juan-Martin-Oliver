@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Young+Serif&display=swap');
 /* Body */
 
 body {
+    font-family: 'Young Serif', serif;
     background-color: rgba(232, 116, 14, 0.898)
+    
 }
 
 
@@ -93,14 +95,27 @@ a:hover {
     border-color: white;
 }
 
-main {
-    margin: 20px;
-    padding: 20px;
-}
+
 
 h1 {
     text-align: center;
-    margin: 20px 0px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    margin: 20px;
 }
 
 /* carousel */
@@ -127,36 +142,10 @@ footer {
 
 /* Bolsos */
 
-.cajaBolsos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 500px 500px 500px;
-    gap: 50px 50px;
+.margenBolsos {
+    margin: 60px;
 }
 
-.coloresBolsos {
-    margin: 20px;
-    border: 4px solid black;
-    border-radius: 10px;
-    width: 400px;
-    height: 400px;
-}
-.imgBolsos {
-    display: block;
-    width: 400px;
-    height: 400px;
-}
-
-.coloresBolsos p {
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-
-}
 
 /* contacto */
 
@@ -250,6 +239,11 @@ h3, h4 {
     font-size: 18px;
     cursor: pointer;    
     margin-top: 10px;
+}
+
+.botonComprar:hover {
+    background-color: rgba(232, 116, 14, 0.898);
+    color: #272727;
 }
 .botonAgregarAlCarrito {
     background-color: black;
