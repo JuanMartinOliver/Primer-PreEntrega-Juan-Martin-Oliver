@@ -24,18 +24,23 @@ header {
 }
 
 .logo {
-    width: 200px;
-    border-radius: 5px;
+    width: 300px;
     margin: 10px;
     
 }
 
+
+
 .colornavbar {
-    background-color: white
+    background-color: #272727
 }
 
 
-
+.banner {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
 
 
 nav ul li {
@@ -44,16 +49,48 @@ nav ul li {
     margin: 50px 50px;
 }
 
+.colorBurger {
+    background-color: white;
+}
+
+.colorFondoBolsos {
+    background-color: #272727;
+}
+
+.colorFuentesBolsos:hover {
+    background-color: rgba(232, 116, 14, 0.898);
+    color: #272727 !important;
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: black;
+    color: white !important;
 }
 
 a:hover {
-    background-color: black;
+    background-color: rgba(232, 116, 14, 0.898);
+    color: #272727 !important;
+    font-weight: bold;
+}
+
+.logo:hover {
+    background-color: #272727 !important;
+}
+
+.colorBotonBuscar {
     color: white;
+    border-color: white;
+    margin-right: 20px;
+}
+
+.colorBotonBuscar:hover {
+    background-color: rgba(232, 116, 14, 0.898);
+    color: #272727 !important;
+    font-weight: bold;
+    border-color: white;
 }
 
 main {
@@ -64,6 +101,18 @@ main {
 h1 {
     text-align: center;
     margin: 20px 0px;
+}
+
+/* carousel */
+
+.tamLogo {
+    width: 50%;
+    border: black solid 2px;
+    border-radius: 4px;
+}
+
+.colorFlecha {
+    background-color: #272727;
 }
 
 

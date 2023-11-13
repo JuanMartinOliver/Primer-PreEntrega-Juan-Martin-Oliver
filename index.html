@@ -20,10 +20,10 @@
         <!-- NAVBAR BS -->
         <nav class="navbar navbar-expand-lg colornavbar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand logo" href="index.html">
                     <img class="logo" src="img/vissio.jpg" alt="Foto Logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler colorBurger" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,9 +41,11 @@
                                 aria-expanded="false">
                                 Bolsos
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="html/bolsos.html">Todos Los Bolsos</a></li>
-                                <li><a class="dropdown-item" href="html/bolso-deportivo.html">Bolsos Deportivos</a></li>
+                            <ul class="dropdown-menu colorFondoBolsos">
+                                <li><a class="dropdown-item colorFuentesBolsos" href="html/bolsos.html">Todos Los
+                                        Bolsos</a></li>
+                                <li><a class="dropdown-item colorFuentesBolsos" href="html/bolso-deportivo.html">Bolsos
+                                        Deportivos</a></li>
 
                             </ul>
                         </li>
@@ -53,7 +55,7 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <button class="btn btn-outline-success colorBotonBuscar" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -66,61 +68,34 @@
     <main>
         <h1>Inicio</h1>
 
+        <!-- banner local bs -->
+
+        <img src="img/Diseño sin título.png" class="img-fluid mx-auto d-block  mb-5 banner" alt="Foto Local">
+
         <!-- CAROUSEL BS -->
-        <div id="carouselExampleCaptions" class="carousel slide carrusel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
+        <div id="carouselExample" class="carousel slide tamLogo mx-auto d-block">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/banner-carrusel-1.png" class="d-block w-100" alt="Foto Local">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Nuestra Sucursal</h5>
-                        <p>Encontra Todo lo que te hace falta en Vissio Marroquineria</p>
-                    </div>
+                    <img src="img/logo-everlast.png" class="d-block w-100" alt="Logo Everlast">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner-carrusel-2.png" class="d-block w-100" alt="Logo Vissio">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Bolso Azul</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
+                    <img src="img/logo-head.png" class="d-block w-100" alt="Logo Head">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner-carrusel-3.png" class="d-block w-100" alt="Logo Marca">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Bolso Everlast</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
+                    <img src="img/logo-pierre-cardin.png" class="d-block w-100" alt="Logo Pierre Cardin">
                 </div>
-
-
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon colorFlecha" aria-hidden="true"></span>
+                <span class="visually-hidden colorFlecha">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon colorFlecha" aria-hidden="true"></span>
+                <span class="visually-hidden colorFlecha">Next</span>
             </button>
         </div>
+        <br><br><br>
 
-        <div class="logosMarcas">
-            <img class="fotoLogo" src="img/Pierre-Cardin-logotipo.jpg" alt="Logo Oierre Cardin">
-
-
-            <img class="fotoLogo" src="img/Screenshot_2.png" alt=" Logo Owen">
-
-            <img class="fotoLogo" src="img/Screenshot_3.png" alt="Loco KifKif">
-        </div>
         <h2>¿Quienes Somos?</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi sequi accusamus dolor exercitationem ad!
             Qui eaque nesciunt quo animi eligendi fugit dignissimos! Asperiores ullam repellat officiis consectetur,
