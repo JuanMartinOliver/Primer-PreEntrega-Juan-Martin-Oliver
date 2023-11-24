@@ -1,0 +1,34 @@
+.botonComprar {
+    background-color: black;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline;
+    width: 300px !important;
+  
+    &:hover {
+      background-color: rgba(232, 116, 14, 0.898);
+      color: #272727;
+    }
+  }
+
+  .botonAgregarAlCarrito {
+    background-color: black;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 22px;
+    display: inline;
+  
+    &:hover {
+      background-color: rgba(232, 116, 14, 0.898);
+      color: #272727;
+    }
+  }
