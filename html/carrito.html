@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,9 @@
     <!-- Mi CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
+
 <body>
-    
+
     <header>
 
         <!-- NAVBAR BS -->
@@ -27,30 +29,25 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 formanavbar ms-auto">
-                        <li class="nav-item">
+                        <li class="nav-item m-2 mt-5">
                             <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item m-2 mt-5">
                             <a class="nav-link" href="../html/contacto.html">Contacto</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Bolsos
-                            </a>
-                            <ul class="dropdown-menu colorFondoBolsos">
-                                <li><a class="dropdown-item colorFuentesBolsos" href="../html/bolsos.html">Todos Los Bolsos</a></li>
-                                <li><a class="dropdown-item colorFuentesBolsos" href="../html/bolso-deportivo.html">Bolsos Deportivos</a></li>
-
-                            </ul>
+                        <li class="nav-item m-2 mt-5">
+                            <a class="nav-link" href="../html/bolsos.html">Bolsos</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item m-2 mt-5">
+                            <a class="nav-link" href="../html/riñonera-owen.html">Riñonera Owen</a>
+                        </li>
+                        <li class="nav-item m-2 mt-5">
                             <a class="nav-link" href="../html/carrito.html">Carrito</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex mt-5" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success colorBotonBuscar" type="submit">Buscar</button>
+                        <button class="btn btn-outline-secondary colorBotonBuscar" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -60,40 +57,92 @@
 
     <main>
         <h1>Carro de Compras</h1>
-        
-        <form>
-            <div class="imgCarrito">
-                <img class="carrito" src="../img/celeste.webp" alt="Foto de Bolso Everlast Celeste">
-                <p>Bolso Everlast Celeste</p>
+
+        <div class="card mb-3 mx-auto d-block" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../img/azul.webp" class="img-fluid rounded-start" alt="Foto Bolso Azul">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolso Azul</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-body-secondary">$50.000</small></p>
+                        <label for="cantidad"> Cantidad</label>
+                        <input type="text" id="cantidad">
+                    </div>
+                </div>
             </div>
-            <label for="cantidad"> Cantidad</label>
-            <input type="text" id="cantidad">
-            <br><br><br>
-            <a href="bolsos.html">
-                <button class="botonAgregarAlCarrito">Agregar Mas Productos Al Carrito</button>
-            </a>
-            <br><br><br>
+        </div>
+
+        <div class="card mb-3 mx-auto d-block" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../img/riñonera1.png" class="img-fluid rounded-start" alt="Foto Riñonera">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Riñonera Owen</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-body-secondary">$50.000</small></p>
+                        <label for="cantidad1"> Cantidad</label>
+                        <input type="text" id="cantidad1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 mx-auto d-block" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../img/gris.webp" class="img-fluid rounded-start" alt="Foto Bolso Gris">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolso Gris</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-body-secondary">$50.000</small></p>
+                        <label for="cantidad2"> Cantidad</label>
+                        <input type="text" id="cantidad2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <div class="container text-center">
+                <div class="row ">
+                    <div class="col-3 col-sm-3 border">Total</div>
+
+                    <!-- Force next columns to break to new line -->
+                    <div class="w-100"></div>
+
+
+
+                    <div class="col-3 col-sm-3 border">$150.000</div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Qué te gustaría hacer a continuación?</h2>
+        <h3>Escriba el cupon de descuento en caso de tenerlo, de lo contrario puede continuar con su compra.</h3>
+        <br><br><br>
+        <div class="m-5">
             <label for="cupon"> Cupon de Descuento</label>
             <input type="text" id="cupon">
-            <br><br><br>
-            <label for="mensaje"> Mensaje </label>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Aclaraciones"></textarea>
-            
-            <label for="Sucursal">Retirar por sucursal</label>
-            <input type="radio" name="opcion">
-            
-            <label for="">Enviar a domicilio</label>
-            <input type="radio" name="opcion">
-            <label for="Sucursal">Ituzango 41, Cordoba</label>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.878363987512!2d-64.1815367!3d-31.4174772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29b614c3293%3A0x187f3e2fd8340a3f!2sItuzaing%C3%B3%2041%2C%20X5000IJA%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1697369864157!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <br><br>
-            <input type="checkbox">
-            <br><br>
-            <input class="botonesEnviar" type="submit">
-            <input class="botonesEnviar" type="reset">
+        </div>
 
-        </form>
-        
+        <div class="m-5">
+            <button type="button" class="btn btn-secondary btn-lg">Agregar Mas Productos</button>
+            <button type="button" class="btn btn-secondary btn-lg">Continuar Con La Compra</button>
+
+
+
+
+
     </main>
     <footer> Vissio Marroquineria - Todos los derechos reservados </footer>
 
@@ -103,4 +152,5 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
