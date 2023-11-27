@@ -1,8 +1,16 @@
 /* footer */
 
 footer {
-    margin: 20px;
-    padding: 20px;
-    border-top: 1px solid black;
-    text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+.logoRedes {
+  background-color: none;
+
+  &:hover {
+    background-color: none;
   }
+}
