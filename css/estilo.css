@@ -175,7 +175,7 @@ footer {
   margin: auto;
 }
 
-.botonComprar {
+.botonComprar, .botonAgregarAlCarrito {
   background-color: black;
   color: azure;
   border: none;
@@ -186,25 +186,13 @@ footer {
   margin-top: 10px;
   display: inline;
 }
-.botonComprar:hover {
+.botonComprar:hover, .botonAgregarAlCarrito:hover {
   background-color: rgba(232, 116, 14, 0.898);
   color: #272727;
 }
 
 .botonAgregarAlCarrito {
-  background-color: black;
-  color: azure;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  font-size: 12px;
-  cursor: pointer;
   margin-left: 22px;
-  display: inline;
-}
-.botonAgregarAlCarrito:hover {
-  background-color: rgba(232, 116, 14, 0.898);
-  color: #272727;
 }
 
 .whats {
