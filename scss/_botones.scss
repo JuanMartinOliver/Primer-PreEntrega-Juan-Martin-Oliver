@@ -8,15 +8,15 @@
 
 .botonContacto {
   @include botones;
-  margin-left: 400px;
+  @include centrar;
+  
   width: 100px;
   font-size: 20px;
 }
 
 .botonComprarGrande {
   @include botones;
+  @include centrar;
   width: 25px 20px;
   font-size: large;
-  text-align: center;
-  margin-left: 400px;
 }
