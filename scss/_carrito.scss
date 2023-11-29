@@ -3,5 +3,5 @@
 }
 
 .margenTotal {
-    margin-left: 500px;
+    @include centrar;
 }
