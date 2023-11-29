@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vissio Marroquineria</title>
+    <meta name="description" content="sitio web dedicado a la venta por menor de productos">
+    <meta name="keywords" content="local, familiar, viaje, viajar, marroquineria, cuero, simlcuero, valija, valijas, bolso, bolsos, mochila, mochilas">
     <!-- CSS BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Mi CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -17,7 +21,6 @@
     <header>
 
         <!-- NAVBAR BS -->
-
         <nav class="navbar navbar-expand-lg colornavbar">
             <div class="container-fluid">
                 <a class="navbar-brand logo" href="../index.html">
@@ -31,24 +34,24 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 formanavbar ms-auto">
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link botonNavbar" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                            <a class="nav-link botonNavbar" href="../html/contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" href="../html/bolsos.html">Bolsos</a>
+                            <a class="nav-link botonNavbar" href="../html/bolsos.html">Bolsos</a>
                         </li>
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" href="../html/rinonera-owen.html">Riñonera Owen</a>
+                            <a class="nav-link botonNavbar" href="../html/rinonera-owen.html">Riñonera Owen</a>
                         </li>
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" href="../html/carrito.html">Carrito</a>
+                            <a class="nav-link botonNavbar" href="../html/carrito.html">Carrito</a>
                         </li>
                     </ul>
                     <form class="d-flex mt-5" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-secondary colorBotonBuscar" type="submit">Buscar</button>
+                        <button class="btn colorBotonBuscar" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -56,7 +59,7 @@
 
     </header>
 
-    <main>
+    <main data-aos="fade-up" data-aos-duration="3000">
         <u>
             <h1>Riñonera Owen</h1>
         </u>
@@ -147,8 +150,8 @@
 
     <br><br><br>
 
-    <button type="button" class="btn btn-secondary btn-lg">Comprar</button>
-    <button type="button" class="btn btn-secondary btn-lg">Agregar al Carrito</button>
+    <button type="button" class="btn btn-lg botonComprarGrande">Comprar</button>
+    <button type="button" class="btn btn-lg botonComprarGrande">Agregar al Carrito</button>
 
     <!-- logo wsp -->
 
@@ -177,13 +180,18 @@
                     d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
             </svg>
         </a>
-        Vissio Marroquineria - Todos los derechos reservados
+        <p class="colorParrafoFooter">Vissio Marroquineria - Todos los derechos reservados</p>
     </footer>
     <!-- JS BS -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -1,10 +1,11 @@
 /* footer */
 
 footer {
-  margin: 20px;
-  padding: 20px;
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   text-align: center;
+  background-color: #272727;
+  margin-top: 100px;
+  
 }
 
 .logoRedes {
@@ -13,4 +14,8 @@ footer {
   &:hover {
     background-color: none;
   }
+}
+.colorParrafoFooter {
+  color: white !important;
+  margin: 0px;
 }

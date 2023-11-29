@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vissio Marroquineria</title>
+    <meta name="description" content="sitio web dedicado a la venta por menor de productos">
+    <meta name="keywords" content="local, familiar, viaje, viajar, marroquineria, cuero, simlcuero, valija, valijas, bolso, bolsos, mochila, mochilas">
     <!-- CSS BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Mi CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -30,24 +34,24 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 formanavbar ms-auto">
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link botonNavbar" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                            <a class="nav-link botonNavbar" href="../html/contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" href="../html/bolsos.html">Bolsos</a>
+                            <a class="nav-link botonNavbar" href="../html/bolsos.html">Bolsos</a>
                         </li>
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" href="../html/rinonera-owen.html">Riñonera Owen</a>
+                            <a class="nav-link botonNavbar" href="../html/rinonera-owen.html">Riñonera Owen</a>
                         </li>
                         <li class="nav-item m-2 mt-5">
-                            <a class="nav-link" href="../html/carrito.html">Carrito</a>
+                            <a class="nav-link botonNavbar" href="../html/carrito.html">Carrito</a>
                         </li>
                     </ul>
                     <form class="d-flex mt-5" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-secondary colorBotonBuscar" type="submit">Buscar</button>
+                        <button class="btn colorBotonBuscar" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -60,7 +64,7 @@
         <h1>Contacto-Sucursal</h1>
 
 
-        <div class="container overflow-hidden text-center">
+        <div data-aos="fade-right" class="container overflow-hidden text-center">
             <div class="row gy-5">
                 <div class="col-6">
                     <div class="p-3 bordeContacto">Vissio Marroquineria</div>
@@ -94,74 +98,77 @@
 
 
 
-
-        <form class="row g-3 needs-validation mt-5 m-5" novalidate>
-            <div class="col-md-4">
-                <label for="validationCustom01" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="validationCustom01" required>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
-            </div>
-            <div class="col-md-4">
-                <label for="validationCustom02" class="form-label">Apellido</label>
-                <input type="text" class="form-control" id="validationCustom02" required>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
-            </div>
-            <div class="col-md-4">
-                <label for="validationCustomUsername" class="form-label">Email</label>
-                <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <input type="text" class="form-control" id="validationCustomUsername"
-                        aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                        Please choose a username.
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <form class="row g-3 needs-validation mt-5 m-5" novalidate>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <div class="valid-feedback">
+                        Looks good!
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <label for="validationCustom03" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="validationCustom03" required>
-                <div class="invalid-feedback">
-                    Please provide a valid city.
-                </div>
-            </div>
-            <div class="col-md-3">
-                <label for="validationCustom04" class="form-label">Forma de Contacto</label>
-                <select class="form-select" id="validationCustom04" required>
-                    <option>Llamada</option>
-                    <option>Mensaje</option>
-                </select>
-                <div class="invalid-feedback">
-                    Please select a valid state.
-                </div>
-            </div>
-            <div class="col-md-3">
-                <label for="validationCustom05" class="form-label">Telefono</label>
-                <input type="text" class="form-control" id="validationCustom05" required>
-                <div class="invalid-feedback">
-                    Please provide a valid zip.
-                </div>
-            </div>
-            <label for="mensaje"> Aclaraciones </label>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Deje Su Mensaje"></textarea>
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                        Acepto Terminos y Condiciones
-                    </label>
-                    <div class="invalid-feedback">
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" required>
+                    <div class="valid-feedback">
+                        Looks good!
                     </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <button class="btn btn-primary botonContacto" type="submit">Enviar</button>
-                <button class="btn btn-primary botonContacto" type="reset">Borrar</button>
-            </div>
-        </form>
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">Email</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Please choose a username.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">Forma de Contacto</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option>Llamada</option>
+                        <option>Mensaje</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                    </div>
+                </div>
+                <label for="mensaje"> Aclaraciones </label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Deje Su Mensaje"></textarea>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Acepto Terminos y Condiciones
+                        </label>
+                        <div class="invalid-feedback">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn botonContacto" type="submit">Enviar</button>
+                    <button class="btn botonContacto" type="reset">Borrar</button>
+                </div>
+            </form>
+        </div>
 
     </main>
 
@@ -191,13 +198,18 @@
                     d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
             </svg>
         </a>
-        Vissio Marroquineria - Todos los derechos reservados
+        <p class="colorParrafoFooter">Vissio Marroquineria - Todos los derechos reservados</p>
     </footer>
     <!-- JS BS -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -3,14 +3,9 @@ $fondo: habitual;
 @if ($fondo == habitual) {
     body {
         font-family: 'Young Serif', serif;
-        background-color: rgba(232, 116, 14, 0.898)
+        background-image: linear-gradient(rgba(232, 116, 14, 0.898), rgba(200, 52, 52, 0.898))
         
     }
+    
 }
 
-.whats {
-    width: 300px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}

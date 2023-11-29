@@ -8,14 +8,7 @@
 /* Body */
 body {
   font-family: "Young Serif", serif;
-  background-color: rgba(232, 116, 14, 0.898);
-}
-
-.whats {
-  width: 300px;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+  background-image: linear-gradient(rgba(232, 116, 14, 0.898), rgba(200, 52, 52, 0.898));
 }
 
 /* header */
@@ -60,16 +53,19 @@ nav ul li {
   font-weight: bold;
 }
 
-a {
+.botonNavbar {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   color: white !important;
+  transition: all 1s !important;
 }
-a:hover {
-  background-color: rgba(232, 116, 14, 0.898);
-  color: #272727 !important;
+.botonNavbar:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
   font-weight: bold;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 .logo:hover {
@@ -80,12 +76,14 @@ a:hover {
   color: white;
   border-color: white;
   margin-right: 20px;
+  transition: all 0.4s !important;
 }
 .colorBotonBuscar:hover {
-  background-color: rgba(232, 116, 14, 0.898);
-  color: #272727 !important;
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
   font-weight: bold;
   border-color: white;
+  font-size: 20px;
 }
 
 h1, h2 {
@@ -103,6 +101,10 @@ h3 {
 
 p {
   margin: 20px;
+}
+
+h4 {
+  text-align: center;
 }
 
 /* carousel */
@@ -125,24 +127,17 @@ p {
   color: red;
 }
 
-/* footer */
-footer {
-  margin: 20px;
-  padding: 20px;
-  border-top: 1px solid black;
-  text-align: center;
-}
-
-.logoRedes {
-  background-color: none;
-}
-.logoRedes:hover {
-  background-color: none;
-}
-
 /* Bolsos */
 .margenBolsos {
   margin: 20px;
+}
+
+.margenCupon {
+  text-align: center;
+}
+
+.margenTotal {
+  margin-left: 500px;
 }
 
 /* contacto */
@@ -166,16 +161,12 @@ footer {
   margin: 200px !important;
 }
 
-.botonContacto {
-  background-color: #272727;
-}
-
 .mapa {
   display: block;
   margin: auto;
 }
 
-.botonComprar, .botonAgregarAlCarrito {
+.botonComprar {
   background-color: black;
   color: azure;
   border: none;
@@ -186,13 +177,84 @@ footer {
   margin-top: 10px;
   display: inline;
 }
-.botonComprar:hover, .botonAgregarAlCarrito:hover {
-  background-color: rgba(232, 116, 14, 0.898);
-  color: #272727;
+.botonComprar:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
 }
 
 .botonAgregarAlCarrito {
-  margin-left: 22px;
+  background-color: black;
+  color: azure;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline;
+}
+.botonAgregarAlCarrito:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
+}
+
+.botonContacto {
+  background-color: black;
+  color: azure;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline;
+  margin-left: 400px;
+  width: 100px;
+  font-size: 20px;
+}
+.botonContacto:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
+}
+
+.botonComprarGrande {
+  background-color: black;
+  color: azure;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline;
+  width: 25px 20px;
+  font-size: large;
+  text-align: center;
+  margin-left: 400px;
+}
+.botonComprarGrande:hover {
+  background-color: rgb(24, 22, 22);
+  color: azure !important;
+}
+
+/* footer */
+footer {
+  border-top: 2px solid black;
+  text-align: center;
+  background-color: #272727;
+  margin-top: 100px;
+}
+
+.logoRedes {
+  background-color: none;
+}
+.logoRedes:hover {
+  background-color: none;
+}
+
+.colorParrafoFooter {
+  color: white !important;
+  margin: 0px;
 }
 
 .whats {
@@ -200,6 +262,10 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  transition: width 0.4s;
+}
+.whats:hover {
+  width: 90px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
