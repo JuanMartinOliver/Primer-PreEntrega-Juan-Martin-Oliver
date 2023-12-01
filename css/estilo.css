@@ -118,10 +118,6 @@ h4 {
   border-radius: 4px;
 }
 
-.colorFlecha {
-  background-color: #272727;
-}
-
 .carouselRiñonera {
   border: black solid 2px;
   border-radius: 2px;
@@ -283,11 +279,13 @@ footer {
 .logoFooter {
   width: 180px;
   float: left;
+  margin-left: 30px;
 }
 
 .logoFooterderecha {
   width: 180px;
   float: right;
+  margin-right: 30px;
 }
 
 .whats {
