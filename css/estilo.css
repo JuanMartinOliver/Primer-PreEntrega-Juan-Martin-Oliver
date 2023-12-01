@@ -245,6 +245,12 @@ h4 {
   color: azure !important;
 }
 
+.centrarComprarGrande {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* footer */
 footer {
   border-top: 2px solid black;
