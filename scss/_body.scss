@@ -3,7 +3,7 @@ $fondo: habitual;
 @if ($fondo == habitual) {
     body {
         font-family: 'Young Serif', serif;
-        background-image: linear-gradient(rgba(232, 116, 14, 0.898), rgba(200, 52, 52, 0.898))
+        background-image: linear-gradient(to right, #D1913C, #FFD194)
         
     }
     

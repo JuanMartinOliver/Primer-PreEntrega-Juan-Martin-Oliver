@@ -2,14 +2,18 @@
 
 footer {
   border-top: 2px solid black;
-  text-align: center;
   background-color: #272727;
-  margin-top: 100px;
-  
+
 }
 
 
 .colorParrafoFooter {
   color: white !important;
-  margin: 0px;
+  margin-bottom: 0px;
 }
+
+.logoFooter {
+  width: 180px;
+  float: left;
+}
+
