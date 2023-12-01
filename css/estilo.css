@@ -11,6 +11,10 @@ body {
   background-image: linear-gradient(rgba(232, 116, 14, 0.898), rgba(200, 52, 52, 0.898));
 }
 
+.textoQuienesSomos {
+  margin: 50px;
+}
+
 /* header */
 header {
   /* border-top: 10px solid black; */
@@ -127,6 +131,10 @@ h4 {
   color: red;
 }
 
+.textoDescripcion {
+  text-align: center;
+}
+
 /* Bolsos */
 .margenBolsos {
   margin: 20px;
@@ -141,6 +149,11 @@ h4 {
   margin: auto;
   align-items: center;
   justify-content: center;
+}
+
+.card-title {
+  font-size: 15px;
+  margin: 0;
 }
 
 /* contacto */
@@ -257,13 +270,6 @@ footer {
   text-align: center;
   background-color: #272727;
   margin-top: 100px;
-}
-
-.logoRedes {
-  background-color: none;
-}
-.logoRedes:hover {
-  background-color: none;
 }
 
 .colorParrafoFooter {
