@@ -1,32 +1,45 @@
 // comenzamos 
 
-function bienvenida (){
-    alert ("Bienvenido a Vissio Marroquineria")
+function bienvenida() {
+    alert("Bienvenido a Vissio Marroquineria")
 }
 
-bienvenida ()
-
-let nombre = prompt ("Ingrese Su Nombre")
-if (nombre == "") {
-    alert ("Ingrese su nombre para continuar")
+let nombre = prompt("Ingrese Su Nombre")
+while (nombre === "") {
+    alert("Ingrese su nombre para continuar")
+    nombre = prompt("Ingrese Su Nombre")
 }
-else {
-    alert ("Estamos encantados con tu visita "+ nombre)
+
+
+{
+    alert("Estamos encantados con tu visita " + nombre)
 }
-alert ("¡Registrate y ganá un cupón de descuento!")
 
-let opcion = prompt ("Como quieres continuar: \n1-Cargar al Carrito \n2-Contactarme con un vendedor \n3-Consultar costos de envio \n4- Comprar \n5- Salir ")
+alert("¡Registrate y ganá un cupón de descuento!")
 
-while (opcion != "5"){
+let opcion = prompt("Como quieres continuar: \n1- Registrarme y ganar un descuento \n2- Contactarme con un vendedor \n3- Consultar costos de envio \n4- Ingresar y empezar a Comprar")
+
+while (opcion != "4") {
     switch (opcion) {
-        case "1": alert("Productos para agregar al carrito")
-        break
-        case "2": alert("Podes mandar mail a asd@asd.com")
-        break
-        case "3": alert ("El costo de envio es de $5000")
-        break
-        case "4": alert ("productos para comprar")
-        break
+        case "1":
+            let nombreRegistro = "";
+            let passwordRegistro = "";
+            while (nombreRegistro === "" || passwordRegistro === "") {
+                nombreRegistro = prompt("Ingrese su nombre de usuario:");
+                passwordRegistro = prompt("Ingrese su contraseña:");
+                if (nombreRegistro === "" || passwordRegistro === "") {
+                    alert("Debe completar todos los campos para registrarse.");
+                }
+            }
+            alert("¡Felicitaciones! Te ganaste un 15% de descuento en toda tu compra!")
+            break;
+        case "2":
+             alert("Podes mandar mail a asd@asd.com o contactarnos por WhatsApp al 12312312")
+            break;
+        case "3":
+             alert("El costo de envio es de $5000")
+            break;
     }
-    opcion = prompt ("Como quieres continuar: \n1-Cargar al Carrito \n2-Contactarme con un vendedor \n3-Consultar costos de envio \n4- Comprar \n5- Salir")
+    opcion = prompt("Como quieres continuar: \n1- Registrarme y ganar un descuento \n2- Contactarme con un vendedor \n3- Consultar costos de envio \n4- Ingresar y empezar a Comprar")
 }
+bienvenida()
